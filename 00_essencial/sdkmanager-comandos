@@ -1,0 +1,4 @@
+sdkmanager --list
+sdkmanager "build-tools;30.0.0"
+sdkmanager "platforms;android-30"
+sdkmanager "system-images;android-29;google_apis_playstore;x86_64"
