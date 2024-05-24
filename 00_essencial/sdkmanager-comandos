@@ -5,4 +5,5 @@ sdkmanager "system-images;android-29;google_apis_playstore;x86_64"
 
 // emulador
 avdmanager create adv -n nome-do-emulador -k "system-images;android-29;google_apis_playstore;x86_64"
+avdmanager create avd -n emulador -k "system-images;android-29;google_apis_playstore;x86_64"
 emulator -adv nome-do-emulador
